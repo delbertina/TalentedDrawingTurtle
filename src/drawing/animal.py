@@ -3,6 +3,21 @@ import math
 
 def fish_basic():
     print("fish basic")
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.right(45)
+    turtle.forward(math.sqrt(2 * (50 * 50)))
+    turtle.left(135)
+    turtle.forward(50)
+    turtle.left(135)
+    turtle.forward(math.sqrt(2 * (50 * 50)))
+    turtle.right(45)
+    turtle.forward(50)
+    turtle.right(180)
+    turtle.penup()
+    turtle.forward(100)
     
 def lion_adult_male():
     print("lion adult male")

@@ -13,5 +13,10 @@ turtle.goto(-25, 25)
 turtle.pendown()
 
 cat_basic()
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+fish_basic()
+
 
 turtle.exitonclick()
