@@ -17,6 +17,10 @@ turtle.penup()
 turtle.forward(50)
 turtle.pendown()
 fish_basic()
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+bird_basic()
 
 
 turtle.exitonclick()
