@@ -27,6 +27,10 @@ turtle.penup()
 turtle.forward(50)
 turtle.pendown()
 snake_basic()
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+lion_adult_male()
 
 
 turtle.exitonclick()
