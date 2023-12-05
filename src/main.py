@@ -2,6 +2,11 @@ import turtle
 import math
 from drawing.animal import *
 
+def reset_for_next_drawing():
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+
 # Get user input
 drawingPrompt = input("Enter prompt: ")
 
@@ -15,22 +20,16 @@ turtle.goto(startingX, 25)
 turtle.pendown()
 
 cat_basic()
-turtle.penup()
-turtle.forward(50)
-turtle.pendown()
+reset_for_next_drawing()
 fish_basic()
-turtle.penup()
-turtle.forward(50)
-turtle.pendown()
+reset_for_next_drawing()
 bird_basic()
-turtle.penup()
-turtle.forward(50)
-turtle.pendown()
+reset_for_next_drawing()
 snake_basic()
-turtle.penup()
-turtle.forward(50)
-turtle.pendown()
+reset_for_next_drawing()
 lion_adult_male()
+reset_for_next_drawing()
+penguin_basic()
 
 
 turtle.exitonclick()
