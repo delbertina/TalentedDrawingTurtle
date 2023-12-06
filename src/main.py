@@ -30,6 +30,8 @@ reset_for_next_drawing()
 lion_adult_male()
 reset_for_next_drawing()
 penguin_basic()
+reset_for_next_drawing()
+rabbit_basic()
 
 
 turtle.exitonclick()
