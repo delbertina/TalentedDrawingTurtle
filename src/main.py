@@ -32,6 +32,8 @@ reset_for_next_drawing()
 penguin_basic()
 reset_for_next_drawing()
 rabbit_basic()
+reset_for_next_drawing()
+shark_basic()
 
 
 turtle.exitonclick()
