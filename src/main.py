@@ -13,10 +13,11 @@ drawingPrompt = input("Enter prompt: ")
 print(drawingPrompt)
 
 startingX = 0 - ((turtle.window_width() / 2) - 25)
+startingY = (turtle.window_height() / 2) - 125
 
 turtle.penup()
 turtle.pensize(5)
-turtle.goto(startingX, 25)
+turtle.goto(startingX, startingY)
 turtle.pendown()
 
 cat_basic()
@@ -34,6 +35,10 @@ reset_for_next_drawing()
 rabbit_basic()
 reset_for_next_drawing()
 shark_basic()
+turtle.penup()
+turtle.goto(startingX, (startingY - 200))
+turtle.pendown()
+bear_basic()
 
 
 turtle.exitonclick()
