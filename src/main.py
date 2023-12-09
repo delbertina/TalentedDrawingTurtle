@@ -39,6 +39,8 @@ turtle.penup()
 turtle.goto(startingX, (startingY - 200))
 turtle.pendown()
 bear_basic()
+reset_for_next_drawing()
+bee_basic()
 
 
 turtle.exitonclick()
