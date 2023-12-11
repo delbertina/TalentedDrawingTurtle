@@ -41,6 +41,8 @@ turtle.pendown()
 bear_basic()
 reset_for_next_drawing()
 bee_basic()
+reset_for_next_drawing()
+giraffe_basic()
 
 
 turtle.exitonclick()
