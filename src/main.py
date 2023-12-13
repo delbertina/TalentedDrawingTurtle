@@ -43,6 +43,8 @@ reset_for_next_drawing()
 bee_basic()
 reset_for_next_drawing()
 giraffe_basic()
+reset_for_next_drawing()
+flamingo_basic()
 
 
 turtle.exitonclick()
